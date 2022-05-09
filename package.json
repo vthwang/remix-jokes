@@ -7,7 +7,9 @@
   "scripts": {
     "build": "remix build",
     "dev": "remix dev",
-    "start": "remix-serve build"
+    "start": "remix-serve build",
+    "prettier": "prettier --ignore-path .gitignore \"**/*.+(js|jsx|json)\"",
+    "format": "npm run prettier -- --write"
   },
   "dependencies": {
     "@remix-run/node": "^1.4.3",
@@ -22,6 +24,7 @@
     "@types/react": "^17.0.24",
     "@types/react-dom": "^17.0.9",
     "eslint": "^8.11.0",
+    "prettier": "2.6.2",
     "typescript": "^4.5.5"
   },
   "engines": {
