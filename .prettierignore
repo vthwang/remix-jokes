@@ -1,5 +1,4 @@
 build
+app/styles
 *.json
-*.js
-*.ts
-*.css
+*.md
