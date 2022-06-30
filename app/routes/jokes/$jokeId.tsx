@@ -31,6 +31,6 @@ export default function JokeRoute() {
 export function ErrorBoundary() {
     const { jokeId } = useParams();
     return (
-        <div className="error-container">{`There was an error loading joke by the id ${jokeId}. Sorry.`}</div>
+        <div className="error-container">{`There was an error loading joke by the id ${jokeId}. Sorry. This is gt-4. gt-5 is also here.`}</div>
     );
 }
